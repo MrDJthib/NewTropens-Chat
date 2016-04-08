@@ -1,0 +1,30 @@
+{
+  "name": "NewTropensChat",
+  "version": "0.0.1",
+  "description": "Application de chat par NewTropens",
+  "main": "Main.js",
+  "scripts": {
+    "start": "electron Main.js",
+    "package": "electron-packager arch='x64' dir='./' platform='win32' app-copyright='NewTropens' app-version=pjson.version asar=true out='../NewTropensChat-Package' overwrite=true name='NewTropensChat' version=0.36.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDJthib/NewTropens-Chat.git"
+  },
+  "author": "NewTropens",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "devDependencies": {
+    "electron-packager": "^6.0.1",
+    "electron-prebuilt": "^0.36.0",
+    "grunt": "^1.0.1",
+    "grunt-electron-installer": "^2.0.0"
+  },
+  "dependencies": {
+    "electron-gh-releases": "^2.0.2",
+    "electron-plugins": "0.0.4",
+    "electron-updater": "^0.3.0"
+  }
+}

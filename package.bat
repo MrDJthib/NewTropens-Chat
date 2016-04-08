@@ -1,0 +1,1 @@
+electron-packager ./ NewTropensChat --arch=x64 --platform=win32 --app-copyright=NewTropens --app-version=0.0.1 --asar=true --out=../NewTropensChat-Package --overwrite=true --name=NewTropensChat --version=0.36.7

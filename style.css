@@ -1,0 +1,101 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+body{
+    background: url('./img/bg_login.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+#white-background{
+   background: #ffffff;
+   opacity: 0.6;
+   margin: 0 auto;
+   margin-top: 50px;
+   height: 500px;
+   width: 300px;
+   border-radius: 6px;
+   overflow: hidden;
+}
+
+#login{
+   margin: 0;
+   height: 500px;
+   width: 600px;
+   border-radius: 6px;
+}
+
+#login .option{
+    font-family: 'Lato';
+    width: calc(100% - 12px);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px #cccccc solid;
+    margin-left: 6px;
+}
+
+#login .option h1{
+    height: 50px;
+    margin: 0;
+    line-height: 50px;
+    float: left;
+}
+
+#login .option img{
+    height: 30px;
+    width: auto;
+    margin: 10px;
+    float: left;
+}
+
+#login #header h1{
+    clear: both;
+    float: none;
+}
+
+#login #account-select{
+    float: left;
+    width: 300px;
+}
+
+#login #oauth{
+    float: left;
+    width: 300px;
+}
